@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Past Problems</title>	
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <img class="logo" src="resource/siena-logo.png"></img>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="photogallery.html">Photo Gallery</a></li>
+        <li><a href="pastwinners.html">Past Winners</a></li>
+        <li><a id = "coloredButton" href="pastproblems.html">Past Problems</a></li>
+        <li><a href="registrationform.html">Registration</a></li>
+        <li><a href="survey.html">Survey</a></li>
+    </ul>
+	
+</nav>
+
+<div class="mainpagewithside" id="left_problems">
+	<ul class="sideproblemslist">
+	<li><a href="notwrittenoutyet.html">2015 Problems</a></li>
+	<li><a href="notwrittenoutyet.html">2014 Problems</a></li>
+	<li><a href="notwrittenoutyet.html">2013 Problems</a></li>
+	<li><a href="pastproblems.html">2012 Problems</a></li>
+	<li><a href="notwrittenoutyet.html">2011 Problems</a></li>
+	<li><a href="notwrittenoutyet.html">2009 Problems</a></li>
+	<li><a href="notwrittenoutyet.html">2000 Problems</a></li>
+</ul>
+</div>
+
+<div class="mainpagewithside" id="right_problems">
+<div class="hProblemBar">
+	<ul>
+	<li><a href="pastproblems.html">Problem 1</a></li>
+	<li><a href="pastproblems20122.html">Problem 2 </a></li>
+	<li><a href="pastproblems20123.html">Problem 3 </a></li>
+	<li><a href="pastproblems20124.html">Problem 4 </a></li>
+	<li><a href="pastproblems20125.html">Problem 5 </a></li>
+	<li><a href="notwrittenoutyet.html">Problems 6</a></li>
+	<li><a href="notwrittenoutyet.html">Problems 7</a></li>
+	</ul>
+	</div>
+	<h1> Program 2: Best of Two </h1>
+	<p>
+		<span class="description"> Background Information:</span> 
+		In this problem, you will be given two cards from a regulation 52-card deck. 
+		However, the deck has had all of its face cards (Kings, Queens, and Jacks) removed.
+		Your job will be to decide which card is greater.  When comparing two cards,
+		Aces are high, and twos are low.  The card values will range from [1, 10], with 1 
+		for an Ace, 2 for a Two, etc.
+		If two cards have the same value, the suits will be 
+		compared according to the following standard:
+	
+		<center><code> CLUBS&lt;DIAMONDS&lt;HEARTS&lt;SPADES </code></center>
+	<p>
+		These four suits will be represented by C, D, H, and S respectively. 
+		You will not be given the same card twice as input.
+		Your output will be the name of the higher card, in
+		text form (all capital letters) with one space between each word.
+	</p>
+	<center><img class = "prg2" src = "resource/problems2012/21.png"></img></center>
+		<span class="description"> Programming Problem:</span>
+		<br>
+		<p>
+			Input:		An integer and a suit character, followed by another integer and a suit
+				character all on one line, separated by spaces.
+	<br>
+	Output:	The higher of the two cards, in text format.
+	</p>
+	<p>
+	Example 1:	Input:	1 H 2 D <br>
+	    <span class = "output">Output: ACE OF HEARTS</span>
+		<br><br>
+	
+	Example 2:	Input:	7 S 7 H<br>
+		<span class = "output">Output: SEVEN OF SPADES </span>
+		<br><br>
+		
+	Example 3:	Input:	3 H 3 C<br>
+		<span class = "output">Output: THREE OF CLUBS</span>
+		<br><br>
+		
+	Example 4:	Input:	10 D 8 H<br>
+		<span class = "output">Output: TEN OF DIAMONDS </span><br>
+
+	</p>
+</div>
+</body>
+</html>

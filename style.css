@@ -1,0 +1,349 @@
+ body{
+ background-image:url(resource/siena.png);
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+.mainpage {
+    width: 90%;
+	margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #444444;
+    background-color: white;
+}
+
+.register-field{
+	width: 90%;
+	margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #444444;
+    background-color: rgba(255,205,52,1);
+}
+
+.mainpagewithside{
+	width: 90%;
+	margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #444444;
+    background-color: white;
+}
+
+.mainpagewithside img{
+width:100%;
+}
+
+#left_problems
+{
+	float: left;
+	width: 20%;
+	margin-left: 1%;
+	
+}
+
+#left{
+	
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	margin-right:4%;
+    	opacity:0.9;
+}
+
+
+#left_winners{
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	margin-right:4%;
+    	opacity:0.9;
+}
+
+#right {
+	float: right;
+	width: 60%;
+	margin-right: 5%;
+}
+
+#right_problems{
+	float:right;
+	width: 60%;
+	margin-right: 5%;
+}
+
+.input {
+	padding-left: 120px;
+}
+
+.calcpic{
+	width:100%;
+	max-width:250px;
+	height:100%;
+	max-height:150px;
+}
+.prg4{
+	width: 100%;
+	max-width: 600px;
+	height: 100%;
+	max-height: 400px;
+}
+.prg2{
+	width: 100%;
+	max-width: 400px;
+	height: 100%;
+	max-height: 200px;
+}
+
+.prg3{
+	width: 100%;
+	max-width:400px;
+	height:100%;
+	max-height: 400px;
+}
+.profile
+{
+display: block;
+font:12px sans-serif;
+width:100%;
+padding-left:5px;
+margin:2px;
+border: 1px solid gray;
+text-indent: 2%;
+border-radius: 5px;
+background: linear-gradient(to left,white, rgba(0,89,77,1));
+}
+
+.profile img{
+float:left;
+width:95%;
+border-radius: 40%;
+box-shadow: 5px 5px 5px #444444;
+}
+
+
+.shadowy{
+ text-shadow: 2px 2px 2px black;
+}
+ #coloredButton{
+  background:rgba(255,205,52,1);
+}
+
+
+nav{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: darkgray;
+    opacity: 0.9;
+}
+
+.logo{
+	width: 30%;
+}
+
+nav ol, nav li {
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    width: 100px;
+     border: 1px solid lightgray;
+     margin: 5px;
+     padding: 5px 0px;
+     text-align: center;
+     border-radius: 10px;
+     background: linear-gradient(to top, gray, white);
+     text-decoration:none;
+ 
+}
+
+nav li a:hover{
+	 opacity:0.5;
+	 background-color: green;
+}
+
+.pagetitle {
+    margin:10px;
+    width: 620px;
+    padding:10px;
+    color: #be8a14;
+    background-color: #1a280d;
+}
+
+
+
+.photoBlock{
+ display:block;
+ height:200px;
+ width: 200px;
+ float:left;
+ padding-left:15px;
+ padding-top:15px;
+ border-radius: 5px;
+ box-shadow: 10px 10px 10px #444444;
+ transition-property: width,heightr;
+ transition: width 0.5s, height 0.5s;
+ transition-timing-function: linear;
+}
+
+.photoBlock:hover {
+width:350px;
+height:410px;
+}
+
+h1 {
+    font:2.4em 'Century Gothic';
+	text-align: center;
+}
+
+.description {
+	text-decoration: underline;
+	font-style: italic;
+	padding-right: 10px;
+}
+.output {
+	padding-left: 75px;
+}
+
+.year{
+	text-decoration: none;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 4px;
+	padding: 5px;
+	width: 38px;
+	background-color: gold;
+	color: green;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+.leftyearcolumn{
+float: left;	
+padding-right: 5%;
+padding-left: 5%;
+}
+
+.rightyearcolumn{
+float:left;	
+padding-left: 5%;
+}
+
+.nocontest{
+	font-family: 'Lobster', cursive;
+	font-size: 18px;
+}
+
+.top3{
+	font-family: 'Lobster', cursive;
+}
+
+.results{
+	text-decoration: none;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 4px;
+	padding: 5px;
+	width: 100px;
+	background-color: gold;
+	color: green;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+.sidewinnerslinks, .sideproblemslist{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+.sidewinnerslinks a, .sideproblemslist a{
+	display: block;
+	font-weight: bold;
+	width: 120px;
+	text-align: center;
+	padding: 4px; 
+	text-decoration: none;
+}
+
+.sidewinnerslinks a:hover, a:active{
+	background-color: #E0E0D1;
+}
+.sideproblemslist a:hover, a:active{
+	background-color: #E0E0D1;
+}
+
+.sidewinnerslinks li, .sideproblemslist li{
+	float: left;
+}
+
+
+.hProblemBar ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.hProblemBar a{
+	text-decoration: none;
+	display:block;
+	width: 100px;
+    border: 1px solid #FFFFC2;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFFF94, white);
+	
+}
+
+.hProblemBar li{
+	display: inline-block;
+    
+}
+
+.hProblemBar li:hover{
+	 opacity:0.5;
+}
+
+table{
+	border-spacing: 0px;
+}
+
+thead{
+	border: collapse;
+	border-color: green;
+}
+td{
+	border-top-color: green;
+	border-left-color: gold;
+	border-bottom-color: green;
+	border-right-color: gold;
+	border-width: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background: linear-gradient(to bottom, #CCFF66, white);
+    font-family: 'Lobster', cursive;
+}
+
+.submitButton{
+ border-radius: 12px;
+ width:100px;
+ height:50px;
+ font:1.4em 'Century Gothic';
+ background: linear-gradient(to bottom, gray, white);;
+ padding: 1px;
+}
+
+
+
+
