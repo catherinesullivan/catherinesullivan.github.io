@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>Survey </title>
-
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -24,28 +23,35 @@
     <hr>
 <form>
     <div class="register-field">
-Name: <input type="text" name="name"><br><br>
-Home Address: <input type="text" name="homeaddress"><br><br>
-City, State: <input type="text" name="city,state"> <br><br>
-Zip Code: <input type="text" name="zipcode"><br><br>
-Email: <input type="text" name="email"><br><br>
-Gender: <br>
+<label>Name: </label><input type="text" name="name"><br><br>
+<label>Home Address: </label><input type="text" name="homeaddress"><br><br>
+<label>City, State: </label><input type="text" name="city,state"> <br><br>
+<label>Zip Code: </label><input type="text" name="zipcode"><br><br>
+<label>Email: </label><input type="text" name="email"><br><br>
+<label>Gender: </label><br>
 <input type="radio" name="gender" value="male">Male<br>
 <input type="radio" name="gender" value="female">Female<br>
 <input type="radio" name="gender" value="other">Other <input type="text" name="othergender"><br><br>
-High School: <input type="text" name="High School"><br><br>
-Year of Graduation: <input type="text" name="Year of Graduation"><br><br>
+<label>High School: </label><input type="text" name="High School"><br><br>
+<label>Year of Graduation: </label><select>
+<option value="2016">2016</option>
+<option value="2016">2017</option>
+<option value="2016">2018</option>
+</select>
 
 <ol>
-<li> What math class are you currently enrolled in? <br><input type="text" name="mathclass"> </li><br>
-<li> What is your favorite academic subject?<br> <input type="text" name="favoritesubject"> </li><br>
+<li> What math class(es) are you currently enrolled in? <br>
+<input type="text" name="mathclass"> </li>
+<li> What is your favorite academic subject?<br> 
+<input type="text" name="favoritesubject"> </li>
 <li> What year are you? <br>
 <input type="radio" name="classyear" value="Senior">Senior<br>
 <input type="radio" name="classyear" value="Junior">Junior<br>
 <input type="radio" name="classyear" value="Sophomore">Sophomore<br>
-<input type="radio" name="classyear" value="Other">Other <input type="text" name="otherclass"><br><br>
+<input type="radio" name="classyear" value="Other">Other <input type="text" name="otherclass"><br>
 </li>
-<li> If you are a senior planning on college for next year, what school(s) will you probably attend? <input type="text" name="schoolsattending"></li><br>
+<li> If you are a senior planning on college for next year, what school(s) will you probably attend?<br>
+ <textarea rows="3" cols="80" name="schoolsattending"></textarea></li>
 <li> What is your intended major:<br>
 <input type="checkbox" name="intended major" value="undecided">Undecided <br>
 <input type="checkbox" name="intended major" value="computerscience">Computer Science<br>
